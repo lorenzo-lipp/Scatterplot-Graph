@@ -8,6 +8,7 @@ Technologies used: Javascript, D3
 
 ![image](./images/preview-1.png)
 ![image](./images/preview-2.png)
+![image](./images/preview-3.png)
 
 # Requirements
 
