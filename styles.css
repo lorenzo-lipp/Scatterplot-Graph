@@ -1,0 +1,65 @@
+svg {
+  max-width: 800px;
+  width: 100vw;
+  height: 600px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#graph {
+  display: flex;
+  justify-content: center;
+}
+
+#tooltip {
+  display: none;
+  position: absolute;
+  width: 250px;
+  padding: 20px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #443e3a;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+p {
+  margin: 5px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.details {
+  font-size: 12px;
+}
+
+#tooltip img {
+  width: 35px;
+  height: 21px;
+  border: 1px solid black;
+}
+
+.dot {
+  stroke: black;
+  stroke-width: 1px;
+  opacity: 0.6;
+}
+
+.dot:hover {
+  opacity: 1;
+  stroke-width: 2px;
+}
+
+.invisible {
+  pointer-events: none;
+  opacity: 0.1;
+}
